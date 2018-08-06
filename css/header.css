@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	background: #61c2e5;
+}
+.navbar-toggle .icon-bar {
+	background: #fff;
+}
+.navbar-brand {
+	width: 110px;
+	-webkit-box-shadow: 18px 18px 5px rgba(68, 68, 68, 0.4);
+	-moz-box-shadow: 18px 18px 5px rgba(68, 68, 68, 0.4);
+	box-shadow: 18px 18px 5px -1px rgba(68, 68, 68, 0.4);
+}
+.navbar-toggle {
+	margin-top: 40px;
+}
+.navbar-nav>li>a {
+	color: #fff;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: #25b1e7;
+}
+.navbar-collapse.in {
+	border: 1px solid #e3e3e3;
+}
+.navbar-nav {
+	margin: 15px 0;
+}

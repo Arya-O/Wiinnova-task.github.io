@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*common style*/
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,
+a, em, img, q, s, small, strong,b, u, i,dl, dt, 
+dd, ol, ul, li,form, label,table, caption, tbody,
+tfoot, thead, tr, th, td,article,footer, header, 
+menu, nav,section, time, audio, video,button ,input,textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+	vertical-align: baseline;
+	text-decoration: none;
+	line-height: 1.2
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+.clearfloat {
+	zoom: 1;
+}
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	overflow: hidden;
+	height: 0;
+}
+button:focus {
+	outline: none !important;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+button {
+	cursor: pointer;
+}
+
+/*top-section*/
+
+.banner-section .banner-content {
+	text-align: right;
+}
+.banner-section .banner-content {
+	padding: 55px 0 240px 0;
+	position: relative;
+}
+.banner-section h2 {
+	color: #fff;
+	font-size: 63px;
+	line-height: 65px;
+	font-family: 'Satisfy', cursive;
+}
+.banner-section p {
+	color: #fff;
+	font-size: 30px;
+	padding: 47px 0;
+	font-weight: 300;
+}
+.banner-section .download button {
+	border: 2px solid #fff;
+	border-radius: 4px;
+	background: transparent;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 30px;
+}
+.banner-section .download button i {
+	padding-left: 15px;
+}
+.banner-section .download button:hover {
+	border: 2px solid #61c2e5;
+	background: #fff;
+	color: #61c2e5;
+}
+.banner-section .banner-content .mobile-img {
+	position: absolute;
+	bottom: 0;
+}
+
+/*bottom-section*/
+
+.bottom-section {
+	background: #f4f4f4;
+	padding-top: 165px;
+}
+.bottom-section .sub-bottom-section {
+	background: url(../images/tab.png) no-repeat right bottom;
+}
+.bottom-section .bottom-section-content {
+	width: 61%;
+}
+.bottom-section h3 {
+	font-size: 33px;
+}
+.bottom-section .para-one {
+	font-size: 17px;
+	line-height: 25px;
+	padding: 30px 0;
+}
+.bottom-section .para-two {
+	border-left: 6px solid #60c0e6;
+}
+.bottom-section .para-two p {
+	font-size: 17px;
+	line-height: 25px;
+	font-style: italic;
+	padding-left: 18px;
+}
+.bottom-section .hello button {
+	margin: 72px 0 145px 0;
+	color: #1faf92;
+	border: 2px solid #1faf92;
+	border-radius: 4px;
+	background: transparent;
+	font-size: 20px;
+	padding: 20px 30px;
+}
+.bottom-section .hello button:hover {
+	background: #1faf92;
+	color: #fff;
+}
+.bottom-section .hello button i {
+	padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+	.bottom-section {
+		padding-top: 55px;
+	}
+	.bottom-section .bottom-section-content {
+		width: 100%;
+	}
+	.bottom-section .sub-bottom-section {
+		min-height: 800px;
+	}
+}
+
+/*mobile device*/
+
+@media (max-width: 767px) {
+	.top-section .navbar-brand {
+		width: 80px;
+	}
+	.top-section .navbar-toggle {
+		margin-top: 25px;
+	}
+	.banner-section .banner-content {
+		text-align: center;
+	}
+	.banner-section p {
+		font-size: 23px;
+		padding: 20px 0;
+	}
+	.banner-section .banner-content {
+		padding: 55px 0 305px 0;
+	}
+	.banner-section .download button {
+		font-size: 18px;
+		padding: 12px 22px;
+	}
+	.banner-section .banner-content .mobile-img {
+		position: static;
+	}
+	.banner-section .banner-content .mobile-img img {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: table;
+	}
+	.bottom-section h3 {
+		font-size: 25px;
+	}
+	.bottom-section .hello button {
+		margin: 30px 0 240px 0;
+		font-size: 18px;
+		padding: 12px 22px;
+	}
+	.bottom-section .sub-bottom-section {
+		min-height: 750px;
+		background-size: 285px 300px;
+	}
+}
+
+/*iPhone 4,5*/
+@media (max-width: 320px) {
+	.bottom-section .sub-bottom-section {
+		min-height: 800px;
+	}
+}
